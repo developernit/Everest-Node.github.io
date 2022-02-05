@@ -49,7 +49,7 @@ body {
 	text-rendering : optimizeLegibility;
 	-webkit-font-smoothing : antialiased;
 	font-size: 19px;
-	background-color: #FEFEFE;
+	background-color: #EEEEEE;
 	color: #04143A;
 }
 ol, ul {
@@ -125,9 +125,9 @@ h1.name {
 }
 
 .lead {
-	font-size: 44px;
-	font-weight: 300;
-	margin-top: 60px;
+	font-size: 40px;
+	font-weight: 275;
+	margin-top: 40px;
 	line-height: 55px;
 }
 
@@ -139,14 +139,23 @@ h1.name {
 	vertical-align: top;
 	display: inline-block;
 	width: 100%;
-	height: 50px;
+	height: 40px;
 }
 
 .section-title {
 	font-size: 30px;
 	font-weight: 1000;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
+
+.section-title-embed {
+	font-size: 30px;
+	font-weight: 1000;
+	margin-bottom: 10px;
+	margin-top: 150px;
+	color: #4A90E2;
+}
+
 
 .list-card {
 	margin: 50px 0;
@@ -188,9 +197,26 @@ h1.name {
 
 
 .cards {
-	max-width: 1120px;
+	max-width: 81%;
 	display: block;
 	margin-top: 750px;
+}
+
+.embed {
+	max-width: 90%;
+	display: inline-block;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	border: 5px solid #31708F;
+}
+
+.embed-active {
+	max-width: 15%;
+	margin-top: -432px;
+	margin-bottom: 20px;
+	margin-left: 1110px;
+	border: 5px solid #31708F;
+		
 }
 
 .card {
@@ -268,8 +294,8 @@ ol {
 	position: relative;
 	display: block;
 	margin: 100px 0;
-	height: 2px;
-	background: #EEF0F7;
+	height: 3px;
+	background: #FFE599;
 
 }
 ol::before,
