@@ -214,14 +214,6 @@ h1.name {
   display: inline-block;
   }
   
-.embed-active {
-	width: 100%;
-	margin-top: 0%;
-	margin-bottom: 20px;
-	margin-left: 89%;
-	position: relative;	
-}
-
 .card {
 	width: 32%;
 	height: 200px;
