@@ -203,20 +203,19 @@ h1.name {
 }
 
 .embed {
-	max-width: 90%;
+	width: 100%;
 	display: inline-block;
-	margin-top: 50px;
+	margin-top: 0%;
 	margin-bottom: 20px;
-	border: 5px solid #31708F;
-}
+	position: absolute;
+	}
 
 .embed-active {
-	max-width: 15%;
-	margin-top: -432px;
+	width: 100%;
+	margin-top: 0%;
 	margin-bottom: 20px;
-	margin-left: 1110px;
-	border: 5px solid #31708F;
-		
+	margin-left: 89%;
+	position: relative;	
 }
 
 .card {
